@@ -4,7 +4,7 @@ import requests
 from datetime import datetime
 
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/1496243116909264979/frxTfE-oeKkWOiYHnflcMNxF0QlD4bLkgs-PBEE8Qe5-9tMfTMfwlgJUYDa9dLbAWT7f"
+WEBHOOK_URL = "https://discord.com/api/webhooks/yourwebhook"
 
 def webhook(url: str, c_name: str, payload_color: int = 0x00ff00)-> bool:
 
